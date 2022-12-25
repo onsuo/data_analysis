@@ -9,7 +9,7 @@
         // "--disable=C0304", // missing-final-newline
         // "--disable=C0305" // trailing-newlines
     ],
-    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.typeCheckingMode": "off",
     "python.formatting.provider": "black",
     "editor.formatOnSave": true, // 저장할 때마다 black을 적용합니다.
     "python.formatting.blackArgs": [
