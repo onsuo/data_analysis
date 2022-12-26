@@ -9,11 +9,21 @@
         // "--disable=C0304", // missing-final-newline
         // "--disable=C0305" // trailing-newlines
     ],
+
     "python.analysis.typeCheckingMode": "off",
+
     "python.formatting.provider": "black",
-    "editor.formatOnSave": true, // 저장할 때마다 black을 적용합니다.
     "python.formatting.blackArgs": [
         "--line-length",
         "120"
     ], // 최대 코드길이를 120으로 설정합니다.
+
+    "[python]": {
+        // 저장할 때마다 black을 적용합니다.
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            // isort 사용 설정
+            "source.organizeImports": true
+        },
+    },
 }
