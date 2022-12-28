@@ -15,8 +15,8 @@
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
         "--line-length",
-        "120"
-    ], // 최대 코드길이를 120으로 설정합니다.
+        "100"
+    ], // 최대 코드길이를 100으로 설정합니다.
 
     "[python]": {
         // 저장할 때마다 black을 적용합니다.
