@@ -6,5 +6,5 @@
 
 ### 사용된 package 목록
 
-- pandas : 데이터 분석
-- matplotlib : 데이터 시각화
+- pandas (v1.5.2) : 데이터 분석
+- matplotlib (v3.6.2) : 데이터 시각화
